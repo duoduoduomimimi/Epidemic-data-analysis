@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c086278ad185de17575ef699b758d8e5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c086278ad185de17575ef699b758d8e5" ></div>
+        
+</body>
+<script>    
+    
+            var map_c086278ad185de17575ef699b758d8e5 = L.map(
+                "map_c086278ad185de17575ef699b758d8e5",
+                {
+                    center: [29.866068124069646, 121.63084278185603],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c19a3403c0415a57608be0a3a35d7a33 = L.tileLayer(
+                "http://rt0.map.gtimg.com/realtimerender?z={z}\u0026x={x}\u0026y={-y}\u0026type=vector\u0026style=0",
+                {"attribution": "default", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c086278ad185de17575ef699b758d8e5);
+        
+    
+            var marker_ee1318e898a0477e99431064c4fc1308 = L.marker(
+                [29.878105319486554, 121.92272110636715],
+                {}
+            ).addTo(map_c086278ad185de17575ef699b758d8e5);
+        
+    
+            var div_icon_ac2205c30ffa9b1438476a2b21259cba = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 18pt; color : black\"\u003e1\u003c/div\u003e", "iconAnchor": [7, 20], "iconSize": [150, 36]});
+            marker_ee1318e898a0477e99431064c4fc1308.setIcon(div_icon_ac2205c30ffa9b1438476a2b21259cba);
+        
+    
+        var popup_5803dc1b6307559f7ab8169aaa7eaba0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4157d48bfeb8d06a5659890f27a1c535 = $(`<div id="html_4157d48bfeb8d06a5659890f27a1c535" style="width: 100.0%; height: 100.0%;">宁波市柴桥街道薪桥北路162号附近农村自建房</div>`)[0];
+                popup_5803dc1b6307559f7ab8169aaa7eaba0.setContent(html_4157d48bfeb8d06a5659890f27a1c535);
+            
+        
+
+        marker_ee1318e898a0477e99431064c4fc1308.bindPopup(popup_5803dc1b6307559f7ab8169aaa7eaba0)
+        ;
+
+        
+    
+    
+            var marker_dbc321ddd793743f8c8e241c932a2940 = L.marker(
+                [29.874836657731702, 121.92229441125005],
+                {}
+            ).addTo(map_c086278ad185de17575ef699b758d8e5);
+        
+    
+            var div_icon_4c57ffd8422cde575ec938ba31853f4c = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 18pt; color : black\"\u003e1\u003c/div\u003e", "iconAnchor": [7, 20], "iconSize": [150, 36]});
+            marker_dbc321ddd793743f8c8e241c932a2940.setIcon(div_icon_4c57ffd8422cde575ec938ba31853f4c);
+        
+    
+        var popup_f414af25ccd019f3df41fffdeac72202 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_645aeda4bc3866e51160011e8a2d4daa = $(`<div id="html_645aeda4bc3866e51160011e8a2d4daa" style="width: 100.0%; height: 100.0%;">宁波市柴桥惠百佳快餐店</div>`)[0];
+                popup_f414af25ccd019f3df41fffdeac72202.setContent(html_645aeda4bc3866e51160011e8a2d4daa);
+            
+        
+
+        marker_dbc321ddd793743f8c8e241c932a2940.bindPopup(popup_f414af25ccd019f3df41fffdeac72202)
+        ;
+
+        
+    
+    
+            var feature_group_558de75c3902da6d2e7a4ac541950452 = L.featureGroup(
+                {}
+            ).addTo(map_c086278ad185de17575ef699b758d8e5);
+        
+    
+            var marker_c5ab3a4d106287f9d720397fcf26b5cf = L.marker(
+                [29.883115282835508, 121.92029666962706],
+                {}
+            ).addTo(map_c086278ad185de17575ef699b758d8e5);
+        
+    
+            var div_icon_39191dd40d97c08c43e4d8dbaba25964 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 18pt; color : black\"\u003e2\u003c/div\u003e", "iconAnchor": [7, 20], "iconSize": [150, 36]});
+            marker_c5ab3a4d106287f9d720397fcf26b5cf.setIcon(div_icon_39191dd40d97c08c43e4d8dbaba25964);
+        
+    
+        var popup_6e12862c79b5a49ee1423dd09656ab70 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e043963188d84457551e4bee4221abe1 = $(`<div id="html_e043963188d84457551e4bee4221abe1" style="width: 100.0%; height: 100.0%;">宁波市北仑区第二人民医院</div>`)[0];
+                popup_6e12862c79b5a49ee1423dd09656ab70.setContent(html_e043963188d84457551e4bee4221abe1);
+            
+        
+
+        marker_c5ab3a4d106287f9d720397fcf26b5cf.bindPopup(popup_6e12862c79b5a49ee1423dd09656ab70)
+        ;
+
+        
+    
+    
+            var marker_b156ca5f89a1ce67c249e075d6257fdd = L.marker(
+                [29.80106423949353, 122.00142183173142],
+                {}
+            ).addTo(map_c086278ad185de17575ef699b758d8e5);
+        
+    
+            var div_icon_dc4da8de8281fd38ac983c9ffa548a48 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 18pt; color : black\"\u003e2\u003c/div\u003e", "iconAnchor": [7, 20], "iconSize": [150, 36]});
+            marker_b156ca5f89a1ce67c249e075d6257fdd.setIcon(div_icon_dc4da8de8281fd38ac983c9ffa548a48);
+        
+    
+        var popup_a9bd57a286f72a80f00cfed7e769b892 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7c9093958eab24987825e20fe7d0134 = $(`<div id="html_b7c9093958eab24987825e20fe7d0134" style="width: 100.0%; height: 100.0%;">宁波市北仑区人民医院</div>`)[0];
+                popup_a9bd57a286f72a80f00cfed7e769b892.setContent(html_b7c9093958eab24987825e20fe7d0134);
+            
+        
+
+        marker_b156ca5f89a1ce67c249e075d6257fdd.bindPopup(popup_a9bd57a286f72a80f00cfed7e769b892)
+        ;
+
+        
+    
+    
+            var feature_group_657e4c95e74ca577196fdc371581b994 = L.featureGroup(
+                {}
+            ).addTo(map_c086278ad185de17575ef699b758d8e5);
+        
+    
+            var layer_control_978e78a4a4a33f0b485db3c5ffc81352 = {
+                base_layers : {
+                    "http://rt0.map.gtimg.com/realtimerender?z={z}\u0026x={x}\u0026y={-y}\u0026type=vector\u0026style=0" : tile_layer_c19a3403c0415a57608be0a3a35d7a33,
+                },
+                overlays :  {
+                    "\u75c5\u4f8b1\u8f68\u8ff9" : feature_group_558de75c3902da6d2e7a4ac541950452,
+                    "\u75c5\u4f8b2\u8f68\u8ff9" : feature_group_657e4c95e74ca577196fdc371581b994,
+                },
+            };
+            L.control.layers(
+                layer_control_978e78a4a4a33f0b485db3c5ffc81352.base_layers,
+                layer_control_978e78a4a4a33f0b485db3c5ffc81352.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_c086278ad185de17575ef699b758d8e5);
+        
+</script>
